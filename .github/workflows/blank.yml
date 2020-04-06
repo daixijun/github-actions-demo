@@ -33,4 +33,4 @@ jobs:
         echo test, and deploy your project.
     
     - name: Run docker test
-      run: docker run -it --rm geerlingguy/docker-centos7-ansible:latest -- ip add
+      run: docker run --rm geerlingguy/docker-centos7-ansible:latest ip add
